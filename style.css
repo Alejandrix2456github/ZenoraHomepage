@@ -1,0 +1,121 @@
+/*
+ * Boxnet Homepage Styles
+ * Designed to match the minimalist, gray BoxOS Zenora aesthetic.
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECECEC; /* Light gray to match the window background */
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the top */
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header/Logo Styling */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #DDDDDD; /* Subtle separator */
+    padding-bottom: 10px;
+}
+
+.logo {
+    font-family: 'Verdana', sans-serif; /* A classic, clean font */
+    font-size: 48px;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #888888;
+    margin-top: 5px;
+}
+
+/* Search Box Styling */
+.search-box {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-bottom: 40px;
+    overflow: hidden; /* Contains the input and button */
+}
+
+.search-box form {
+    display: flex;
+    width: 100%;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #E0E0E0; /* Button background */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    flex-shrink: 0; /* Keep button size consistent */
+}
+
+.search-button:hover {
+    background-color: #CCCCCC;
+}
+
+.search-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Quick Links Styling */
+.quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.1s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.link-item:hover {
+    background-color: #F0F0F0;
+    border-color: #AAAAAA;
+    transform: translateY(-1px); /* Little lift effect */
+}
+
+.link-icon {
+    font-size: 18px;
+    margin-right: 8px;
+}
